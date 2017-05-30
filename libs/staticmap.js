@@ -70,9 +70,9 @@ module.exports = function (accessToken) {
     // Clear paths
     this.paths = [];
 
-    if (url.length > 4096) {
-      throw 'Url too long. Think about cutting off some points';
-    }
+    // if (url.length > 4096) {
+    //   throw 'Url too long. Think about cutting off some points';
+    // }
 
     return url;
   };
